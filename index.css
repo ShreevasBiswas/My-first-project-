@@ -1,0 +1,432 @@
+
+body{
+  margin: 0;
+  padding:0;
+  background-color: #fff;
+  box-sizing: border-box;
+  scroll-behavior:smooth;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Moon Dance', cursive;*/
+}
+/*heading start*/
+.heading{
+  padding: 5px;
+  border-radius: 6px;
+}
+
+
+.heading-menu{
+  background-color: #4790a2;
+  height: ;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+
+.heading-menu .logo .logo-img{
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  margin-top: 5px;
+ border-radius: 50px;
+ padding: 8px;
+ 
+}
+
+
+.menu-all a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color:#2c96d5;
+  margin: 5px;
+  border-radius: 10px;
+  min-width: 50%;
+  transition: 2s;
+  transition-delay: 2s;
+  
+}
+.menu-all a:focus{
+  background-color: grey;
+  transform: (scale: 120deg);
+}
+
+
+
+.tiktik{
+  background-color: #99d39684;
+  padding: 10px;
+  margin: 3px 0px;
+  border-radius: 6px;
+  
+}
+
+
+
+.tiktik .tiktik-m{
+color: #374cf4c2;
+
+  
+}
+/*heading ends*/
+/*main start*/
+.back-img{
+  background-image: url('/backgraund.jpeg');
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  text-align: center;
+  /*box-sizing: border-box;*/
+}
+.heading2{
+  /*font-family: 'Moon Dance', cursive;*/
+  color: #10ff00;
+  font-size: 25px;
+}
+
+.pregraph{
+  color: #e2d339;
+  font-size: 22px;
+  font-family: 'Moon Dance', cursive;
+}
+.btn{
+  border: none;
+  background:none;
+  color: green;
+  font-size: 20px;
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+  /*font-family: 'Moon Dance', cursive;*/
+  font-style: bold;
+}
+
+
+.menu-item{
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.card{
+ background-color: #847c54; 
+ text-align: center;
+ padding: 5px;
+ border-radius: 10px;
+ box-shadow: 3px 3px 3px 3px #e400ff;
+ transition: 3s;
+ width: 90%;
+ margin-left: 10px;
+ margin-bottom: 10px;
+}
+.img{
+  height: 220px;
+  margin-left: 3pxpx;
+  border-radius: 10px;
+  
+}
+.h3{
+  background-color: green;
+  color: #fff;
+  border: 3px solid red;
+  background: none;
+  margin: 2px 40px;
+  border-radius: 10px;
+}
+.p{
+  color: #fff;
+}
+.btn2{
+  background-color: green;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  padding: 7px;
+  border-radius: 10px;
+  border: solid 2px white;
+}
+.card:huver:{
+   width: 100%;
+}
+
+.img2{
+  height: 220px;
+  margin-left: 3px;
+  border-radius: 10px; 
+  width: 98%;
+  
+}
+
+.img3{
+   height: 220px;
+  margin-left: 3pxpx;
+  border-radius: 10px;
+  width: 98%;
+}
+
+.img4{
+   height: 220px;
+  margin-left: 3px;
+  border-radius: 10px;
+  width: 98%;
+}
+
+.about-us{
+ background-color: #618a96; 
+ color: white;
+ text-align: center;
+ padding: 5px;
+ margin: 10px; 
+ border-radius: 10px;
+ border-top: 3px solid red;
+ border-right: 3px solid #ffd500;
+ border-bottom:#ff00ca solid 3px;
+ border-left: solid 3px #ff0052;
+
+}
+
+.about{
+  font-family: 'Moon Dance', cursive;
+  
+}
+
+/*.about-pre{
+  font-family: 'Moon Dance', cursive;
+*/  
+}
+/*main end*/
+.foot{
+  
+}
+.footer{
+  color:white;
+  background-color: black;
+  font-family: 'Moon Dance', cursive;
+  height: 25px;
+  width: 97%;
+  margin-left: 6px;
+  border-radius: 8px;
+  text-align: center;
+}
+.ff{
+
+  
+}
+.fff{
+  font-size: 20px;
+}
+
+.contect{
+  background-color:#51eeec;
+  text-align: center;
+  margin: 9px;
+  border-radius: 9px;
+  font-family: 'Moon Dance', cursive;
+  padding: 10px;
+  overflow: auto;
+  box-sizing:border-box;
+  
+}
+.label{
+  color:black;
+  font-size: 1rem;
+  display: inline;
+  margin-bottom: 50px;
+}
+ 
+.gap{
+   margin-top: 5px;
+   margin-bottom: 10px;
+   border: none;
+   border: 3px solid red;
+   border-radius: 7px;
+   padding: 5px;
+ }
+.gap::placeholder{
+  color:black;
+  font-size: -5rem;
+  
+}
+.gap:focus{
+  background-color:black;
+  color:white;
+  border: pink solid 3px;
+}
+.area{
+  border: 3px solid red;
+  border-radius: 8px;
+  padding: 5px;
+}
+.area:focus{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+/*accessible programme*/
+@media (min-width:960px) {
+.allback{
+    
+    
+    
+  }
+  
+.heading-menu{
+  height: 6vh;
+ 
+}
+.back-img{
+  background-image: url('/backgraund.jpeg');
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+
+.logo{
+  float: left;
+}
+.logo-img{
+  
+}
+.menu-all{
+margin-top: 20px;
+ float: right;
+ margin-right: 10px;
+ 
+}
+.menu-all a{
+  display: inline;
+
+ background:none;
+ 
+}
+.menu-all a:focus{
+  text-decoration: underline;
+  background: none;
+  
+  
+}
+.heading-menu{
+  
+}
+/*end*/
+
+.tiktik{
+  
+}
+.tiktik-m{
+ font-size: 1.6rem; 
+}
+
+/*end*/
+.back-img{
+display: inline;
+
+
+}
+.heading{
+ 
+}
+.heading2{
+ font-size: 2.5rem; 
+}
+.pregraph{
+  font-size: 2.3rem;
+}
+.btn{
+  height: 50px;
+}
+
+.menu-item{
+ box-sizing: border-box;
+ margin: 10px;
+}
+.card{
+  height: 24%;
+  width: 47%;
+margin-top: 10px;
+
+
+} 
+#card1{
+  float:left;
+  
+}
+#card2{
+  float: right;
+}
+#card3{
+  float:left;
+}
+#card4{
+  float: right;
+  
+}
+.menu-item .card::after{
+  clear: both;
+
+
+}
+  
+
+
+
+
+
+
+.img{
+
+} 
+.h3{
+  
+}
+.p{
+  
+}
+.btn2{
+  
+}  
+.about-us{
+  text-align: center;
+  margin-top: 81%;
+  height: 10vh;
+  width: 96%;
+  margin-left:20px;
+}
+.about{
+  text-align: center;
+}
+.about-pre{
+  
+}
+.contect{
+  margin-left: 17px;
+}
+.label{
+  
+}
+.gap{
+  
+}
+.footer{
+ width: 98.7%;
+ height: 65px;
+}
+.ff{
+  font-size: 30px;
+}
+.fff{
+  font-size: 45px;
+}
+
+
+
+}
